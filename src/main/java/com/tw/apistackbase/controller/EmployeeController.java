@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 @RestController
 @RequestMapping("/employees")
-public class EmployeeResource {
+public class EmployeeController {
     private List<EmployeeModel> employeeList = new ArrayList<>();
 
     @PostMapping(path = "/add", consumes = "application/json", produces = "application/json")
